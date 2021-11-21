@@ -1,0 +1,43 @@
+
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYwYTdmMWU1OGFlNTAzM2YzZWViMmNiZSIsImlhdCI6MTYzNzAyNTI1NSwiZXhwIjoxNjM3MDI4ODU1fQ.UXNQQkxQj1uLILPltIvbdHlG7uFit64skx1DcA0fpxY
+
+{
+     
+        "_id": "5a435a851b54a676234d17f7",
+        "title": "xxReactterns",
+        "author": "Michaan",
+        "url": "https://reactpatterns.com/",
+        "likes": 7,
+        "__v": 0
+    
+}
+
+###
+
+
+PUT http://localhost:3003/api/blogs/60a835b71bc1f0498d63b0e1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYwYTdmMWU1OGFlNTAzM2YzZWViMmNiZSIsImlhdCI6MTYzNzAyMTI3OSwiZXhwIjoxNjM3MDI0ODc5fQ.yxhy_hA2D1Xido1h2m5_vg4_sWV86U4QJPCDdMCn31s
+
+ {
+    "title": "bb",
+    "author": "",
+    "url": "",
+    "user": {
+      "username": "root",
+      "name": "Superuser",
+      "id": "60a7f1e58ae5033f3eeb2cbe"
+    },
+    "likes": 63100,
+    "id": "60a80c6707e58b46742c1ecd"
+  }
+
+
+###
+
+
+Get http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYwYTdmMWU1OGFlNTAzM2YzZWViMmNiZSIsImlhdCI6MTYzNzAyMTI3OSwiZXhwIjoxNjM3MDI0ODc5fQ.yxhy_hA2D1Xido1h2m5_vg4_sWV86U4QJPCDdMCn31s
